@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Rowdies', cursive;
+    line-height: 2;
+}
+
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+
+.background-box{
+    padding: 10px;
+    margin: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+.title{
+    font-size: 40px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.img-box{
+    background-color: white;
+    padding: 5px;
+    margin: 2.5px;
+    border-radius: 5px;
+}
+
+.des{
+    padding: 5px;
+}
+
+.shadow-box{
+    background-color: white;
+    margin: 0px 600px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 20px 30px 50px grey;
+}
+
+li{
+    max-width: 550px;
+    text-align: left;
+    padding: 5px; 
+    margin: auto;
+}
+
+.speech{
+    padding: 20px;
+    margin: 10px 600px;
+}
+
+
+a{
+    color: grey;
+}
+
+a:visited{
+    color: darkgray;
+}
